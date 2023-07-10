@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import computerImage from './icon.png';
+import location from './location.png'
 
 import Home from './components/Home';
 import About from './components/About';
@@ -54,28 +55,32 @@ function App() {
           <h2>Important Contacts</h2>
           <div className="row">
           {/* <input type="radio" id="option1" name="option" /> */}
-          <img src={computerImage} alt='roundimage' className='round-image' />
-          <label htmlFor="option1">Contact</label>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Contact</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Contact</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Contact</span>
           {/* <input type="radio" id="option2" name="option" /> */}
-          <label htmlFor="option2">Contact</label>
+          {/* <label htmlFor="option2">Contact</label>
           {/* <input type="radio" id="option3" name="option" /> */}
-          <label htmlFor="option3">Contact</label>
+           {/* <label htmlFor="option3">Contact</label>  */}
         </div>
         <div className="row">
-          {/* <input type="radio" id="option4" name="option" /> */}
-          <label htmlFor="option4">Link 1</label>
-          {/* <input type="radio" id="option5" name="option" /> */}
-          <label htmlFor="option5">Link 1</label>
-          {/* <input type="radio" id="option6" name="option" /> */}
-          <label htmlFor="option6">Link 1</label>
+        <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 1</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 1</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 1</span>
         </div>
         <div className="row">
-          {/* <input type="radio" id="option4" name="option" /> */}
-          <label htmlFor="option4">Link 2</label>
-          {/* <input type="radio" id="option5" name="option" /> */}
-          <label htmlFor="option5">Link 2</label>
-          {/* <input type="radio" id="option6" name="option" /> */}
-          <label htmlFor="option6">Link 2</label>
+        <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 2</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 2</span>
+          <img src={computerImage} alt='roundimage'/>
+          <span className='label'>Link 2</span>
         </div>
           
 
@@ -83,7 +88,8 @@ function App() {
         <div className='location'>
           <h2>Our location</h2>
           <div className='gallery'>
-
+          <img src={location} alt='roundimage'/>
+          
             {/* <img src="" alt='image'>IMAGE</img> */}
           </div>
         </div>
