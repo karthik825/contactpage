@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import computerImage from './icon.png';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -52,27 +53,28 @@ function App() {
         <div className='importantcontacts'>
           <h2>Important Contacts</h2>
           <div className="row">
-          <input type="radio" id="option1" name="option" />
+          {/* <input type="radio" id="option1" name="option" /> */}
+          <img src={computerImage} alt='roundimage' className='round-image' />
           <label htmlFor="option1">Contact</label>
-          <input type="radio" id="option2" name="option" />
+          {/* <input type="radio" id="option2" name="option" /> */}
           <label htmlFor="option2">Contact</label>
-          <input type="radio" id="option3" name="option" />
+          {/* <input type="radio" id="option3" name="option" /> */}
           <label htmlFor="option3">Contact</label>
         </div>
         <div className="row">
-          <input type="radio" id="option4" name="option" />
+          {/* <input type="radio" id="option4" name="option" /> */}
           <label htmlFor="option4">Link 1</label>
-          <input type="radio" id="option5" name="option" />
+          {/* <input type="radio" id="option5" name="option" /> */}
           <label htmlFor="option5">Link 1</label>
-          <input type="radio" id="option6" name="option" />
+          {/* <input type="radio" id="option6" name="option" /> */}
           <label htmlFor="option6">Link 1</label>
         </div>
         <div className="row">
-          <input type="radio" id="option4" name="option" />
+          {/* <input type="radio" id="option4" name="option" /> */}
           <label htmlFor="option4">Link 2</label>
-          <input type="radio" id="option5" name="option" />
+          {/* <input type="radio" id="option5" name="option" /> */}
           <label htmlFor="option5">Link 2</label>
-          <input type="radio" id="option6" name="option" />
+          {/* <input type="radio" id="option6" name="option" /> */}
           <label htmlFor="option6">Link 2</label>
         </div>
           
@@ -87,8 +89,15 @@ function App() {
         </div>
         <div className='gap'>
         <div className='downcontent'>
-            <p>The official Racing Page of Sae<br></br>Team of IIITDM Kancheepuram</p>
+          <div className='paragraph'>
+            <p>The Official Racing Page of Sae<br></br>Team of IIITDM Kancheepuram</p>
+          </div>  
+          <div className='radio'>
 
+          <input type="radio" id="option1" name="option" />
+          <label htmlFor="option1">Contact</label>
+
+          </div>
 
 
 
