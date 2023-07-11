@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className='appcontext'>
-        <nav className='redbg'>
+        {/* <nav className='redbg'>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
@@ -21,9 +21,9 @@ function App() {
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
-        </nav>
+        </nav> */}
         <div className="centered-text">
-          <h1>React</h1>
+          <h1>Header section</h1>
         </div>
         </div>
         <div className="contact-section">
@@ -61,10 +61,7 @@ function App() {
           <span className='label'>Contact</span>
           <img src={computerImage} alt='roundimage'/>
           <span className='label'>Contact</span>
-          {/* <input type="radio" id="option2" name="option" /> */}
-          {/* <label htmlFor="option2">Contact</label>
-          {/* <input type="radio" id="option3" name="option" /> */}
-           {/* <label htmlFor="option3">Contact</label>  */}
+          
         </div>
         <div className="row">
         <img src={computerImage} alt='roundimage'/>
@@ -93,22 +90,11 @@ function App() {
             {/* <img src="" alt='image'>IMAGE</img> */}
           </div>
         </div>
-        <div className='gap'>
-        <div className='downcontent'>
-          <div className='paragraph'>
-            <p>The Official Racing Page of Sae<br></br>Team of IIITDM Kancheepuram</p>
-          </div>  
-          <div className='radio'>
-
-          <input type="radio" id="option1" name="option" />
-          <label htmlFor="option1">Contact</label>
-
-          </div>
+        
 
 
-
-        </div>
-        </div>
+        
+        
       </div>
     
   );
